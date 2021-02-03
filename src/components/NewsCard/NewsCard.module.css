@@ -1,0 +1,40 @@
+.card {
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 16px 2px rgb(15, 15, 15);
+    border-radius: 8px;
+    height: 360px;
+    width: 320px;
+    margin: 12px;
+    padding: 8px;
+    cursor: pointer;
+}
+.img {
+    height: 180px;
+    width: 100%;
+}
+.source {
+    margin-top: 6px;
+    font-size: 1rem;
+    height: 22px;
+    overflow: hidden;
+}
+.title {
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 90px;
+    overflow: hidden;
+}
+.date {
+    color: rgb(116, 114, 114);
+    margin-top: 12px;
+    height: 20px;
+}
+.share {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 22px;
+    left: 276px;
+    filter: drop-shadow(2px 2px 2px rgb(31, 30, 30));
+}
