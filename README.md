@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# [Newsly](https://rj-newsly.netlify.app/) - A news React App
+*Its a news app build with ReactJS and NewsAPI.* 
+### Notable Features
+ - React-router navigation ( single page )
+ - Dark UI
+ - Variety of Sources of different categories
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Stack Info
+Front End : ReactJS   
+Data : NewsAPI   
+Deployed on : Netlify.
 
 ## Available Scripts
 
