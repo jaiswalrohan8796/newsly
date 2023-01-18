@@ -16,7 +16,7 @@ class Search extends Component {
     componentDidMount() {
         this.setState({ searching: true });
         axios
-            .get("https://rj-proxy.herokuapp.com/sources")
+            .get("https://proxy-uye9.onrender.com/sources")
             .then((res) => {
                 this.setState({
                     sources: res.data.sources,
@@ -31,7 +31,7 @@ class Search extends Component {
     searchHandlerParent = (searchQuery) => {
         this.setState({ searching: true, searchResults: [] });
         axios
-            .get(`https://rj-proxy.herokuapp.com/search/${searchQuery}`)
+            .get(`https://proxy-uye9.onrender.com/search/${searchQuery}`)
             .then((res) => {
                 this.setState({
                     searchResults: res.data.articles,

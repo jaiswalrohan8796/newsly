@@ -13,7 +13,7 @@ class Home extends Component {
             loading: true,
         });
         axios
-            .get("https://rj-proxy.herokuapp.com/")
+            .get("https://proxy-uye9.onrender.com/")
             .then((res) => {
                 this.setState({
                     posts: res.data.articles,
